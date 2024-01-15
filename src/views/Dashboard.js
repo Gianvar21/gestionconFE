@@ -24,7 +24,7 @@ const WhiteBackground = styled.div`
 const FooterRoot = muiStyled('footer')(
   ({ theme }) => css`
   position: absolute;
-  bottom: 0;
+  bottom: a0;
   left: 50%;
   transform: translateX(-35%);
   text-align: center;
