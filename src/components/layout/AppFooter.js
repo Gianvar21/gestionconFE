@@ -6,6 +6,7 @@ import { localize } from '@mui/material/locale';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import { css, useTheme } from 'styled-components';
 
+
 const FooterRoot = styled('footer')(
   ({ theme }) => css`
     margin: 0 auto;
@@ -56,15 +57,7 @@ const FooterRoot = styled('footer')(
 
 const AppFooter = () => {
   return (
-    <FooterRoot>
       <div></div>
-      <Divider />
-      <div >
-        <div>Copyright© 2024 - Management Group S.A.</div>
-        <div></div>
-
-      </div>
-    </FooterRoot>
   );
 };
 
